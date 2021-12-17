@@ -10,17 +10,18 @@ python3 -m solution -h
 ```
 Output:
 ```
-usage: app.py csv_file FROM TO date [--bags=count] [--return] [--days_in_trip=count]
+usage: app.py csv_file FROM TO[--bags=count] [--return]
 
 positional arguments:
-  csv_file              Data file path. For example "example/example0.csv"
-  FROM                  Departure station in IATA format, for example PRG
-  TO                    Destination station in IATA format, for example VKO
+  csv_file         Data file path. For example "example/example0.csv"
+  FROM             Departure station in IATA format, for example PRG
+  TO               Destination station in IATA format, for example VKO
 
 options:
-  -h, --help            show this help message and exit
-  --bags BAGS           Count of bags, default=0
-  --return [BACK]       Entered if you need a return ticket
+  -h, --help       show this help message and exit
+  --bags BAGS      Count of bags, default=0
+  --return [BACK]  Entered if you need a return ticket
+
 ```
 If you don't need a ticket back:
 
