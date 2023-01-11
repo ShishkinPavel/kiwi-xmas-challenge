@@ -1,4 +1,4 @@
-# Solved python weekend entry task
+# Solved python weekend entry task (https://github.com/kiwicom/python-weekend-xmas-task)
 
 This code allows you to find tickets from point A to point B with all possible transfers using information from a CSV file
 
